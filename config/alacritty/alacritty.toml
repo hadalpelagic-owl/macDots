@@ -1,0 +1,37 @@
+[window]
+decorations = "Buttonless"
+opacity = 0.6
+blur = true
+title = "Alacritty"
+
+[font]
+normal = { family = "CaskaydiaMono Nerd Font", style = "Regular" } 
+size = 16
+
+[colors]
+[colors.primary]
+foreground = "#ffffff"
+background = "#000000"
+
+[colors.normal]
+black = "#000000"
+red = "#e78284"
+green = "#a6d189"
+yellow = "#e5c890"
+blue = "#8caaee"
+magenta = "#f4b8e4"
+cyan = "#85c1dc"
+white = "#ffffff"
+
+[colors.bright]
+black = "#000000"
+red = "#e78284"
+green = "#a6d189"
+yellow = "#e5c890"
+blue = "#8caaee"
+magenta = "#f4b8e4"
+cyan = "#85c1dc"
+white = "#ffffff"
+
+[terminal]
+osc52 = "CopyPaste"
