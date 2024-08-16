@@ -1,0 +1,14 @@
+ The solution is to place this:
+
+sed -ri 's#install -m000 /dev/null /run/runit/stopit#install -m100 /dev/null /run/runit/stopit#' /etc/runit/1
+
+Into /etc/rc.local.
+
+It seems to be a permission issue of the runit's stopit executable/file.
+
+After you place this in rc.local, reboot (manually) and try rebooting again. 
+
+
+
+
+from https://www.reddit.com/r/voidlinux/comments/1brinhm/void_installation_stuck_on_runit_system_reboot/
